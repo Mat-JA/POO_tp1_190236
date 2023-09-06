@@ -88,6 +88,11 @@ public class Cola {
 
     }
 
+    public Object recuperarSalida () {
+
+        return salida.getData();
+    }
+
     public String toString () {
 
         String cola = new String();
